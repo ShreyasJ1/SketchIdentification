@@ -1,0 +1,38 @@
+body {
+    background-color: dodgerblue;
+}
+
+h1 {
+    color: white;
+    background-color:rgb(28, 165, 169);
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name: animation1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes animation1 {
+    from {
+        box-shadow: 1px 1px 38px rgb(255, 0, 0);
+    }
+
+    to {
+        box-shadow: 1px 1px 38px rgb(255, 208, 1);
+    }
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+
+}
